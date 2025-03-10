@@ -1,0 +1,172 @@
+/* Navbar Container */
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 12px 5%;
+  background: linear-gradient(135deg, #ff9a3c, #ff512f);
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  position: fixed;
+  width: 100%;
+  top: 0;
+  left: 0;
+
+  
+  z-index: 1000;
+  transition: all 0.3s ease-in-out;
+}
+
+/* Logo Section */
+.nav-logo {
+  display: flex;
+  align-items: center;
+  cursor: pointer;
+}
+
+.nav-logo img {
+  width: 55px;
+  height: auto;
+  margin-right: 10px;
+}
+
+.nav-logo p {
+  font-size: 20px;
+  font-weight: bold;
+  color: #fff;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  text-decoration: none;
+}
+.op {
+  text-decoration: none;
+  color: inherit;
+  
+}
+
+/* Navigation Menu */
+.nav-menu {
+  list-style: none;
+  display: flex;
+  gap: 25px;
+}
+
+.nav-menu li {
+  position: relative;
+  padding: 10px;
+}
+
+.nav-menu a {
+  text-decoration: none;
+  font-size: 16px;
+  font-weight: 600;
+  color: #fff;
+  transition: color 0.3s ease-in-out;
+}
+
+.nav-menu a:hover {
+  color: #222;
+}
+
+/* Stylish Underline Effect */
+.nav-menu li::after {
+  content: "";
+  width: 0%;
+  height: 2px;
+  background-color: #fff;
+  position: absolute;
+  left: 50%;
+  bottom: -5px;
+  transition: 0.3s;
+  transform: translateX(-50%);
+}
+
+.nav-menu li:hover::after {
+  width: 100%;
+}
+
+/* Login & Cart Container */
+.Nav_login_cart {
+  display: inline;
+  align-items: center;
+  gap: 200px;
+}
+
+/* Login Button */
+.Nav_login_cart button {
+  background: linear-gradient(135deg, #ff7f50, #ff4500);
+  border: none;
+  padding: 8px 16px;
+  margin-right: 90px;
+  margin-left: 30px;
+  font-size: 16px;
+  font-weight: bold;
+  color: #fff;
+  border-radius: 6px;
+  cursor: pointer;
+  transition: all 0.3s ease-in-out;
+}
+
+.Nav_login_cart button:hover {
+  background: linear-gradient(135deg, #ff4500, #ff7f50);
+  transform: scale(1.05);
+}
+
+/* Cart Icon */
+.Nav_login_cart img {
+  width: 30px;
+  height: 30px;
+  cursor: pointer;
+  transition: transform 0.3s ease-in-out;
+}
+
+.Nav_login_cart img:hover {
+  transform: scale(1.2);
+}
+
+/* Mobile Responsive Design */
+@media (max-width: 768px) {
+  .navbar{
+    height: 40px;
+    
+    
+  }
+  .nav-logo {
+    margin-left: -9px;
+    
+    width: 12px;
+    height: auto;
+  }
+  .nav-logo p {
+    display: none;
+    
+  }
+  .nav-menu li {
+  position: relative;
+  padding: 7px;
+    margin-left: 7px;
+    
+  }
+
+.about {
+  display: none;
+}
+  .Nav_login_cart button {
+    margin-left: 13px;
+    margin-top: 0px;
+    
+    
+    font-size: 13px;
+    
+  }
+
+.nav-menu {
+  font-size: 10px;
+  gap: 0px;
+  
+}
+
+
+
+
+  
+}
