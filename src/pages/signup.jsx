@@ -1,35 +1,32 @@
 import React, { useState } from "react";
 import { useNavigate } from "react-router-dom";
 import { Link } from "react-router-dom";
-import "./css/login.css";
+import "./css/login.css"; // Reusing the same CSS
 
-const Login = () => {
+const Signup = () => {
   const [email, setEmail] = useState("");
   const [password, setPassword] = useState("");
   const navigate = useNavigate();
 
-  const handleLogin = (e) => {
+  const handleSignup = (e) => {
     e.preventDefault();
-    if (email === "user@example.com" && password === "password") {
-      alert("Login successful!");
-      navigate("/");
-    } else {
-      alert("Invalid credentials");
-    }
+    alert("Signup successful!");
+    navigate("/login");
   };
 
   return (
-    <div className ="bodymain"  >  <div className="login-container">
-      <h2>Login</h2>
-      <form onSubmit={handleLogin}>
+    <div className="bodymain">
+    <div className="login-container"> {/* Using the same class */}
+      <h2>Signup</h2>
+      <form onSubmit={handleSignup}>
         <input type="email" placeholder="Email" value={email} onChange={(e) => setEmail(e.target.value)} required />
         <input type="password" placeholder="Password" value={password} onChange={(e) => setPassword(e.target.value)} required />
-        <button type="submit">Login</button>
+        <button type="submit">Signup</button>
       </form>
-      <p>Don't have an account? <Link to="/signup">Sign up</Link></p>
+      <p>Already have an account? <Link to="/login">Login</Link></p>
     </div>
     </div>
   );
 };
 
-export default Login;
+export default Signup;

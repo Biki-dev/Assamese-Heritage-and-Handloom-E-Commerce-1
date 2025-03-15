@@ -2,9 +2,9 @@ import React from 'react';
 import './Gamosha.css';
 import { Productdata, PhulamGamoshadata } from '../../context/productdata.jsx';
 
-const Gamosha = () => {
+const Gamosha = ({extraClass="main-top"}) => {
   return (
-    <div>
+    <div className={extraClass}>
       <p className="ho">Uka Gamosha</p>
 
       <div className="product-grid">

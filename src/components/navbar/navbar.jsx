@@ -4,11 +4,17 @@ import { Link } from "react-router-dom";
 import logo from "../assets/logo.png";
 import cart_icon from "../assets/cart_icon.png";
 
+
 const Navbar = () => {
   return (
     <div className="navbar">
       <div className="nav-logo">
-        <img src={logo} alt="Logo" />
+        
+        
+
+<Link to="/">
+  <img src={logo} alt="Logo" />
+</Link>
     <p><Link className="op" style={{textDecoration:"none"}}  to="/">XunWeave</Link></p>
         </div>
 

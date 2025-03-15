@@ -4,10 +4,11 @@
 .main-top {
   margin-top: 8vh;
 }
+
 .product-grid {
     display: flex;
     gap: 15px;
-        padding: 20px;
+    padding: 20px;
     flex-wrap: nowrap;  /* Keeps items in a row */
     overflow-x: auto;  /* Enables horizontal scrolling */
     scroll-snap-type: x mandatory; /* Smooth scrolling */
@@ -74,9 +75,8 @@
 
 @media (max-width: 768px){
   .main-top {
-  margin-top: 10vh;
-  
-}
+  margin-top: 13vh;
+  }
   .product-card{
     width: 100%;
   }
@@ -84,5 +84,5 @@
     font-size: 1.5rem;
   }
 
-
+  
 }

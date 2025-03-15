@@ -1,0 +1,78 @@
+.bodymain {
+  font-family: "Poppins", sans-serif;
+  background: #fdfbf7; /* Soft beige for a traditional look */
+  color: #2c3e50;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+  margin: 0;
+}
+/* 🍃 Login Container */
+.login-container {
+  background: white;
+  padding: 2rem;
+  border-radius: 12px;
+  box-shadow: 0px 5px 15px rgba(0, 0, 0, 0.1);
+  width: 350px;
+  text-align: center;
+  border: 5px solid #d32f2f; /* Inspired by Gamosha Red */
+}
+
+/* 🏷️ Title */
+.login-container h2 {
+  color: #d32f2f;
+  margin-bottom: 1rem;
+  font-size: 24px;
+  font-weight: bold;
+}
+
+/* 📝 Input Fields */
+.login-container input {
+  width: 100%;
+  padding: 12px;
+  margin: 10px 0;
+  border: 2px solid #ccc;
+  border-radius: 5px;
+  font-size: 16px;
+  transition: border 0.3s;
+}
+
+.login-container input:focus {
+  border-color: #d32f2f;
+  outline: none;
+}
+
+/* 🔘 Login Button */
+.login-container button {
+  background: #ff9800; /* Inspired by Assamese orange */
+  color: white;
+  border: none;
+  padding: 12px;
+  font-size: 16px;
+  border-radius: 5px;
+  cursor: pointer;
+  width: 100%;
+  margin-top: 10px;
+  transition: 0.3s;
+}
+
+.login-container button:hover {
+  background: #e68900;
+}
+
+/* 📌 Signup Link */
+.login-container p {
+  font-size: 14px;
+  margin-top: 15px;
+}
+
+.login-container a {
+  color: #d32f2f;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+.login-container a:hover {
+  text-decoration: underline;
+}

@@ -6,6 +6,10 @@ import PhulamGamosha1 from "../components/assets/PhulamGamosha/PhulamGamosha1.pn
 import PhulamGamosha2 from "../components/assets/PhulamGamosha/PhulamGamosha2.png";
 import PhulamGamosha3 from "../components/assets/PhulamGamosha/PhulamGamosha3.png";
 
+import Bamboo1 from "../components/assets/Bamboo/Bamboo1.png";
+import Bamboo2 from "../components/assets/Bamboo/Bamboo2.png";
+import Bamboo3 from "../components/assets/Bamboo/Bamboo3.png";
+
 const Productdata = [
   { id: 1, img: UkaGamosha1, price: "₹999", rating: "⭐ 4.5" },
   { id: 2, img: UkaGamosha2, price: "₹1299", rating: "⭐ 4.8" },
@@ -18,4 +22,10 @@ const PhulamGamoshadata = [
   { id: 3, img: PhulamGamosha3, price: "₹799", rating: "⭐ 4.2" },
 ];
 
-export { Productdata, PhulamGamoshadata };
+const BambooData = [
+  { id: 1, img: Bamboo1, price: "₹999", rating: "⭐ 4.5" },
+  { id: 2, img: Bamboo2, price: "₹1299", rating: "⭐ 4.8" },
+  { id: 3, img: Bamboo3, price: "₹799", rating: "⭐ 4.2" },
+];
+
+export { Productdata, PhulamGamoshadata, BambooData};
