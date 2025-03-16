@@ -1,5 +1,5 @@
 
-##🏺 Assamese Heritage & Handloom E-Commerce
+## 🏺 Assamese Heritage & Handloom E-Commerce
 
 An e-commerce website showcasing Assamese heritage and handloom products. Built with React, Vite and deployed via GitHub Pages.
 
@@ -7,7 +7,7 @@ An e-commerce website showcasing Assamese heritage and handloom products. Built 
 
 ---
 
-##🛠 Tech Stack
+## 🛠 Tech Stack
 
 Frontend: React, Vite
 Styling: CSS
@@ -16,7 +16,7 @@ Deployment: [GitHub Pages](https://biki-dev.github.io/Assamese-Heritage-and-Hand
 
 ---
 
-##📂 Project Structure
+## 📂 Project Structure
 
 ```
 Assamese-Heritage-and-Handloom-E-Commerce-1/  
@@ -35,7 +35,7 @@ Assamese-Heritage-and-Handloom-E-Commerce-1/
 
 ---
 
-##⚙️ Installation
+## ⚙️ Installation
 
 1. Clone the repo:
 
@@ -57,7 +57,7 @@ npm run dev
 
 ---
 
-##🚀 Deployment (GitHub Pages)
+## 🚀 Deployment (GitHub Pages)
 
 1. Build the project:
 ```
@@ -86,7 +86,7 @@ npm run deploy
 
 ---
 
-##🔧 Troubleshooting
+## 🔧 Troubleshooting
 
 If you see a blank page after deployment, update vite.config.js:
 ```
@@ -104,7 +104,7 @@ Clear cache and refresh.
 
 ---
 
-##📜 License
+## 📜 License
 
 MIT Licensed – Contributions welcome!
 
