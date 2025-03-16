@@ -1,45 +1,41 @@
-Here’s a more concise version of your README:
 
-
----
-
-🏺 Assamese Heritage & Handloom E-Commerce
+##🏺 Assamese Heritage & Handloom E-Commerce
 
 An e-commerce website showcasing Assamese heritage and handloom products. Built with React, Vite and deployed via GitHub Pages.
 
-🔗 Live Demo: View Website
+🔗 Live Demo: [View Website](https://biki-dev.github.io/Assamese-Heritage-and-Handloom-E-Commerce-1/)
+
 ---
 
-🛠 Tech Stack
+##🛠 Tech Stack
 
 Frontend: React, Vite
 Styling: CSS
 
 Deployment: [GitHub Pages](https://biki-dev.github.io/Assamese-Heritage-and-Handloom-E-Commerce-1/)
 
-
-
 ---
 
-📂 Project Structure
+##📂 Project Structure
 
+```
 Assamese-Heritage-and-Handloom-E-Commerce-1/  
 │── public/             # Static assets  
 │── src/                # Source code  
 │   ├── components/     # React components  
 │   ├── pages/          # Page components  
 │   ├── App.jsx         # Main app file  
-│   ├── main.jsx        # Entry point  
-│── dist/               # Build files (after build)  
+│   ├── main.jsx        # Entry point0  
+│── dist/               # Build files (after build) 
 │── index.html          # HTML entry point  
 │── vite.config.js      # Vite configuration  
 │── package.json        # Dependencies & scripts  
 │── README.md           # Documentation
-
+```
 
 ---
 
-⚙️ Installation
+##⚙️ Installation
 
 1. Clone the repo:
 
@@ -49,21 +45,19 @@ cd Assamese-Heritage-and-Handloom-E-Commerce-1
 
 2. Install dependencies:
 ```
-npm installp
+npm install
 ```
 
 3. Start the server:
 ```
 npm run dev
 ```
+
 4. Open http://localhost:5173/
-
-
-
 
 ---
 
-🚀 Deployment (GitHub Pages)
+##🚀 Deployment (GitHub Pages)
 
 1. Build the project:
 ```
@@ -90,12 +84,9 @@ npm run deploy
 
 5. Enable GitHub Pages in repo settings (Set branch to gh-pages).
 
-
-
-
 ---
 
-🔧 Troubleshooting
+##🔧 Troubleshooting
 
 If you see a blank page after deployment, update vite.config.js:
 ```
@@ -103,16 +94,17 @@ export default defineConfig({
   base: '/Assamese-Heritage-and-Handloom-E-Commerce-1/',
 });
 ```
+
 Rebuild & deploy:
 ```
 npm run build && npm run deploy
 ```
-Clear cache and refresh.
 
+Clear cache and refresh.
 
 ---
 
-📜 License
+##📜 License
 
 MIT Licensed – Contributions welcome!
 
