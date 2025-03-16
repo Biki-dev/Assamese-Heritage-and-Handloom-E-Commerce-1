@@ -1,4 +1,3 @@
-
 ## 🏺 Assamese Heritage & Handloom E-Commerce
 
 An e-commerce website showcasing Assamese heritage and handloom products. Built with React, Vite and deployed via GitHub Pages.
