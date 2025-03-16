@@ -13,10 +13,9 @@ An e-commerce website showcasing Assamese heritage and handloom products. Built 
 🛠 Tech Stack
 
 Frontend: React, Vite
-
 Styling: CSS
 
-Deployment: GitHub Pages
+Deployment: [GitHub Pages](https://biki-dev.github.io/Assamese-Heritage-and-Handloom-E-Commerce-1/)
 
 
 
@@ -44,20 +43,19 @@ Assamese-Heritage-and-Handloom-E-Commerce-1/
 
 1. Clone the repo:
 
-git clone https://github.com/Biki-dev/Assamese-Heritage-and-Handloom-E-Commerce-1.git
+```git clone https://github.com/Biki-dev/Assamese-Heritage-and-Handloom-E-Commerce-1.git
 cd Assamese-Heritage-and-Handloom-E-Commerce-1
+```
 
-p
 2. Install dependencies:
-
+```
 npm installp
-
+```
 
 3. Start the server:
-
+```
 npm run dev
-
-
+```
 4. Open http://localhost:5173/
 
 
@@ -68,27 +66,27 @@ npm run dev
 🚀 Deployment (GitHub Pages)
 
 1. Build the project:
-
+```
 npm run build
-
+```
 
 2. Install gh-pages:
-
+```
 npm install gh-pages --save-dev
-
+```
 
 3. Add these scripts to package.json:
-
+```
 "scripts": {
   "predeploy": "npm run build",
   "deploy": "gh-pages -d dist"
 }
-
+```
 
 4. Deploy:
-
+```
 npm run deploy
-
+```
 
 5. Enable GitHub Pages in repo settings (Set branch to gh-pages).
 
@@ -100,15 +98,15 @@ npm run deploy
 🔧 Troubleshooting
 
 If you see a blank page after deployment, update vite.config.js:
-
+```
 export default defineConfig({
   base: '/Assamese-Heritage-and-Handloom-E-Commerce-1/',
 });
-
+```
 Rebuild & deploy:
-
+```
 npm run build && npm run deploy
-
+```
 Clear cache and refresh.
 
 
